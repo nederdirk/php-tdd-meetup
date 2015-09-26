@@ -6,7 +6,7 @@ class DemoTest extends PHPUnit_Framework_TestCase
     public function testNegateZero()
     {
         $d = new Demo;
-        $this->assertEquals($d->negate(0), 0, 'Zero is not negated');
+        $this->assertEquals($d->negate(0), 0, 'Zero is negated');
     }
 
     public function testNegatePositive()

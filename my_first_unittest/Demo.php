@@ -2,8 +2,8 @@
 
 class Demo
 {
-    public function negate($a)
+    public function negate($number)
     {
-        return $a;
+        return -$number;
     }
 }
